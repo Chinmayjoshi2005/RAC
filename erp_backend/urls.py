@@ -32,6 +32,6 @@ urlpatterns = [
     path('api/hello/', hello_world), # This is our new API URL
     path('api/', include('students.urls')),
     path('api/', include('attendance.urls')),
-    path('api/', include('chatbot.urls')),
+    # path('api/', include('chatbot.urls')),
     path('api/auth/', include('users.urls')),
 ]
